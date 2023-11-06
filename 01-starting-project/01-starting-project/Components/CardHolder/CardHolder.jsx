@@ -27,7 +27,9 @@ function CardHolder() {
         <h2 style={{textAlign:"center"}}>Core Concepts</h2>
         <div className='card-holder'>
             {data.map((item)=>{
-                return <Card src={item["src"]} name={item["name"]} content={item["content"]} />
+                return (
+                    <Card src={item["src"]} name={item["name"]} content={item["content"]} />    
+                ) 
             })}
         </div>
     </div>

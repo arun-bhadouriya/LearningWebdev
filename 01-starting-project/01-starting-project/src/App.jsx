@@ -8,7 +8,9 @@ function App() {
       <Header />
       <main>
         <h2>Time to get started!</h2>
-        <CardHolder /> 
+        <main>
+        <CardHolder />
+        </main>  
         <Switcher />
       </main>
     </div>
