@@ -16,7 +16,7 @@ function Switcher(){
     //     displayOptions.appendChild(option)
     // })
     const [currState, setState] = useState("Components")
-    const [currState1, setState1] = useState(0)
+    // const [currState1, setState1] = useState(0)
     const content = {
         "Components":["a","b","c"],
         "JSX":["d","e","f"],
